@@ -35,7 +35,7 @@ def dfs(G, v, visited, scc_list):
     # mark the current node as visited
     visited[v] = True
     scc_list.append(v)
-    # recur for all vertices adjacent to this vertex
+    # recurse for all vertices adjacent to this vertex
     for i in G[v]:
         if visited[i] == False:
             dfs(G, i, visited, scc_list)
@@ -45,7 +45,7 @@ def dfs(G, v, visited, scc_list):
 def finishingTime(Grev, v, visited, stack):
     # mark the current node as visited
     visited[v] = True
-    # recur for all vertices adjacent to this vertex
+    # recurse for all vertices adjacent to this vertex
     for i in Grev[v]:
         if visited[i] == False:
             finishingTime(Grev, i, visited, stack)
