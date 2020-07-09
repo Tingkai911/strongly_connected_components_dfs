@@ -8,5 +8,5 @@ Kosaraju's two pass algorithm as follows:
 - run DFS on G, processing nodes in decreasing order of finishing times
 
 Note:
-DFS = Deep Function Search
-SCC.txt is located inside SCC.rar
+- DFS = Deep Function Search
+- SCC.txt is located inside SCC.rar
